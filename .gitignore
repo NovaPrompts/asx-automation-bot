@@ -1,0 +1,25 @@
+# Security (NEVER UNCOMMENT THESE)
+.env
+.env.local
+
+# Python Boilerplate
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Local Data (Don't push your local DB or logs)
+chroma_db/
+logs/
+temp/
+
+# Output Files (Don't push the generated MP3s)
+output/
+dist/
+*.mp3
+*.wav
+
+# OS Junk
+.DS_Store
+Thumbs.db
